@@ -10,7 +10,11 @@ void kmain() {
     putchar('l');
     putchar('l');
     putchar('o');
-    putchar(',');
+    putchar(' ');
+    putchar('F');
+    putchar('R');
+    putchar('O');
+    putchar('M');
     putchar(' ');
     putchar('R');
     putchar('I');
@@ -18,7 +22,6 @@ void kmain() {
     putchar('C');
     putchar('-');
     putchar('V');
-    putchar(' ');
     putchar('!');
     putchar('\n');
 

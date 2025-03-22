@@ -26,7 +26,7 @@ jobs:
       - name: Build kernel
         run: make
       
-      - name: 🧪 Run QEMU boot test
+      - name: Run QEMU boot test
         run: |
           chmod +x scripts/test_boot.sh
           ./scripts/test_boot.sh

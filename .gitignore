@@ -21,3 +21,4 @@
 
 /tests/*.out
 /tests/*.exe
+build/

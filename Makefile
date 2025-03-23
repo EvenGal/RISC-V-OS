@@ -20,7 +20,7 @@ $(BUILD)/kernel.o: $(SRC)/kernel.c
 	$(CROSS)-gcc $(CFLAGS) -c -o $@ $<
 
 run: all
-	qemu-system-riscv64 -machine virt -nographic -bios none -kernel $(BUILD)/kernel.elf
+	qemu-system-riscv64 -machine virt -bios none -nographic -serial mon:stdio -kernel $(BUILD)/kernel.elf
 
 clean:
 	rm -rf $(BUILD)
